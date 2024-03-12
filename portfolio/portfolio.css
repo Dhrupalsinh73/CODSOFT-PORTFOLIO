@@ -1,0 +1,98 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #13151b;
+    color: #fff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: navy;
+    padding: 22px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#about img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+#about p{
+    font-size:larger;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #393737;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#resume a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+#resume p .resumepdf{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #4f4848;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: underline;
+    
+}
+
+#resume a:hover {
+    cursor: pointer;
+}
+
+footer {
+
+    background-color: #2d1a0b;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
